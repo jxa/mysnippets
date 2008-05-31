@@ -1,0 +1,9 @@
+#name : describe RspecClass
+# --
+describe ${1:Class}, "${2:method}" do
+  before(:each) do
+    @${1:$(downcase text)} = $1.new$3
+  end
+
+  it$0
+end
