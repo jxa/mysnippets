@@ -1,0 +1,9 @@
+snippets created for use with the yasnippet emacs library
+here is what I have in my .emacs file to load yasnippet's default snippets
+followed by mynippets
+
+(require 'yasnippet)
+(yas/initialize)
+(yas/load-directory "~/.emacs.d/extern/yasnippet/snippets/")
+(setq yas/root-directory "~/.emacs.d/extern/mysnippet/")
+(yas/load-directory yas/root-directory)
