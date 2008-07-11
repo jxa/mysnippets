@@ -1,0 +1,5 @@
+#name : describe RspecClass
+# --
+describe "${1:method}" do
+  it$0
+end
