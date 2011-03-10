@@ -1,0 +1,5 @@
+#name : context (rspec)
+# --
+context "${1:in such and such a state}" do
+  it$0
+end

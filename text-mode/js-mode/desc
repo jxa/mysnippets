@@ -1,0 +1,4 @@
+describe("${1:Object}", function() {
+  var ${1:$(downcase yas/text)};
+  it$0
+});
